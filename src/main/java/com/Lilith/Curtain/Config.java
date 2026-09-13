@@ -1,4 +1,4 @@
-package com.Lilith.mymodid;
+package com.Lilith.Curtain;
 
 import java.io.File;
 
@@ -6,9 +6,10 @@ import net.minecraftforge.common.config.Configuration;
 
 public class Config {
 
-    public static void synchronizeConfiguration(File configFile) {
-        Configuration configuration = new Configuration(configFile);
+    public static Configuration configuration;
 
+    public static void synchronizeConfiguration(File configFile) {
+        configuration = new Configuration(configFile);
         if (configuration.hasChanged()) {
             configuration.save();
         }

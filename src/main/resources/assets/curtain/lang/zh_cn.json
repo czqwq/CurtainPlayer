@@ -1,0 +1,163 @@
+{
+  "curtain.menu.title": "目前启用的 Curtain Mod 选项：",
+  "curtain.menu.categories": "浏览分类：",
+  "curtain.menu.version": "Curtain Mod 版本：%s",
+  "curtain.menu.category": "Curtain Mod 中符合 “%s” 的选项：",
+  "curtain.menu.change": "%s 的值已更改为 %s",
+  "curtain.menu.change.default": "%s 的默认值已更改为 %s",
+  "curtain.menu.as_default": "[设为默认]",
+
+  "curtain.categories.feature": "特性",
+  "curtain.categories.creative": "创造",
+  "curtain.categories.command": "命令",
+  "curtain.categories.survival": "生存",
+  "curtain.categories.dispenser": "自动",
+  "curtain.categories.bugfix": "修复",
+  "curtain.categories.client": "客户端",
+  "curtain.categories.tnt": "TNT",
+  "curtain.categories.bot": "假人",
+
+  "curtain.rules.language.name": "语言",
+  "curtain.rules.language.desc": "窗帘输出文本的本地化语言",
+
+  "curtain.rules.xp_no_cooldown.name": "经验吸收无冷却",
+  "curtain.rules.xp_no_cooldown.desc": "玩家将会立刻吸收经验球",
+
+  "curtain.rules.allow_spawning_offline_players.name": "允许离线模式假人生成",
+  "curtain.rules.allow_spawning_offline_players.desc": "是否允许通过/player命令生成离线模式的假人",
+
+  "curtain.rules.command_player.name": "玩家控制",
+  "curtain.rules.command_player.desc": "启用/player命令以控制/召唤玩家",
+
+  "curtain.rules.view_distance.name": "自定义视距",
+  "curtain.rules.view_distance.desc": "改变服务器视距，设为0以使用默认值",
+
+  "curtain.rules.command_log.name": "游戏数据监视器",
+  "curtain.rules.command_log.desc": "启用/log命令以在聊天栏或Tab栏监视游戏部分数据",
+
+  "curtain.rules.missing_tools.name": "工具缺失修复",
+  "curtain.rules.missing_tools.desc": "活塞，玻璃和海绵可以用合适的工具更快地破坏",
+
+  "curtain.rules.flipping_cactus.name": "仙人掌扳手",
+  "curtain.rules.flipping_cactus.desc": "允许使用仙人掌调整方块朝向，并且不会产生更新",
+
+  "curtain.rules.rotator_block.name": "仙人掌扳手发射器版",
+  "curtain.rules.rotator_block.desc": "发射器中的仙人掌可以旋转方块（尽可能以逆时针）",
+
+  "curtain.rules.placement_rotation_fix.name": "放置旋转修复",
+  "curtain.rules.placement_rotation_fix.desc": "修复了玩家放置方块时快速转身造成的问题",
+
+  "curtain.rules.fill_updates.name": "fill更新开关",
+  "curtain.rules.fill_updates.desc": "fill/clone/setblock命令以及结构方块执行时是否产生更新",
+
+  "curtain.rules.interaction_updates.name": "放置方块产生更新",
+  "curtain.rules.interaction_updates.desc": "放置方块是否产生更新的开关，设为false以避免产生更新",
+
+  "curtain.rules.default_loggers.name": "默认游戏监视器",
+  "curtain.rules.default_loggers.desc": "为所有新进入玩家设置部分监视器默认开启",
+
+  "curtain.rules.hud_logger_update_interval.name": "HUD记录器更新间隔",
+  "curtain.rules.hud_logger_update_interval.desc": "覆写HUD记录器的更新间隔，单位为gametick",
+
+  "curtain.rules.open_fake_player_inventory.name": "假人背包",
+  "curtain.rules.open_fake_player_inventory.desc": "允许玩家打开假人背包",
+
+  "curtain.rules.open_fake_player_inventory.menu.slot": "槽位 %d",
+  "curtain.rules.open_fake_player_inventory.menu.stop_all": "停止所有动作",
+  "curtain.rules.open_fake_player_inventory.menu.attack_interval_14": "间隔14gt攻击 %s",
+  "curtain.rules.open_fake_player_inventory.menu.attack_continuous": "一直攻击 %s",
+  "curtain.rules.open_fake_player_inventory.menu.use_continuous": "一直使用 %s",
+
+  "curtain.rules.open_fake_player_ender_chest.name": "假人末影箱",
+  "curtain.rules.open_fake_player_ender_chest.desc": "允许玩家打开假人末影箱",
+
+  "curtain.rules.stackable_shulker_boxes.name": "潜影盒堆叠",
+  "curtain.rules.stackable_shulker_boxes.desc": "空潜影盒可在地上堆叠到 64\n在物品栏中转移时，按住 shift 点击整组移动",
+
+  "curtain.rules.super_lead.name": "超级拴绳",
+  "curtain.rules.super_lead.desc": "村民和怪物可以被拴绳拴住（拴怪物需要客户端也安装窗帘）",
+
+  "curtain.rules.desert_shrubs.name": "树苗在沙漠干枯",
+  "curtain.rules.desert_shrubs.desc": "炎热无水的气候下树苗变成枯萎的灌木",
+
+  "curtain.rules.xp_from_explosions.name": "爆炸掉落经验",
+  "curtain.rules.xp_from_explosions.desc": "任何类型的爆炸都能使能掉落经验的方块掉落经验",
+
+  "curtain.rules.explosion_no_block_damage.name": "爆炸不摧毁方块",
+  "curtain.rules.explosion_no_block_damage.desc": "爆炸不摧毁方块",
+
+  "curtain.rules.creative_no_clip.name": "创造玩家无碰撞检测",
+  "curtain.rules.creative_no_clip.desc": "创造玩家可以穿过方块\n这个选项需要服务端和客户端同时支持才生效。\n仅在服务端设置是无效的，而仅在客户端设置的情况下\n你可以利用一些和活板门有关的技巧来穿墙",
+
+  "curtain.rules.optimized_tnt.name": "TNT优化",
+  "curtain.rules.optimized_tnt.desc": "TNT在相同的地点或在流体里，爆炸造成更小的延迟",
+
+  "curtain.rules.tnt_random_range.name": "TNT爆炸范围设置",
+  "curtain.rules.tnt_random_range.desc": "设置TNT随机爆炸范围为一个固定的值，设为-1以禁用\n设为-1以使用默认值",
+
+  "curtain.rules.tnt_primer_momentum_removed.name": "移除TNT点燃时随机动量",
+  "curtain.rules.tnt_primer_momentum_removed.desc": "TNT点燃时的随机动量将被移除",
+
+  "curtain.rules.hardcode_tnt_angle.name": "硬编码TNT角度",
+  "curtain.rules.hardcode_tnt_angle.desc": "把TNT水平随机角度设为固定值，可用于测试机器\n设为-1以使用默认值",
+
+  "curtain.rules.merge_tnt.name": "合并TNT",
+  "curtain.rules.merge_tnt.desc": "合并静止的点燃的TNT实体",
+
+  "curtain.rules.ctrl_q_crafting_fix.name": "Ctrl+Q合成修复",
+  "curtain.rules.ctrl_q_crafting_fix.desc": "在合成时允许使用Ctrl+Q快捷键扔出结果格内所有物品",
+
+  "curtain.rules.quick_leaf_decay.name": "快速叶子腐烂",
+  "curtain.rules.quick_leaf_decay.desc": "在砍树后树叶会快速掉落",
+
+  "curtain.rules.custom_motd.name": "自定义MOTD",
+  "curtain.rules.custom_motd.desc": "在试图连接到服务器的客户端上设置一个不同的MOTD信息\n使用'_'来使用server.properties中的启动设置",
+
+  "curtain.rules.turtle_egg_trampled_disabled.name": "禁用海龟蛋被践踏",
+  "curtain.rules.turtle_egg_trampled_disabled.desc": "阻止海龟蛋因实体踩踏而破坏",
+
+  "curtain.rules.farmland_trampled_disabled.name": "禁用耕地被踩踏",
+  "curtain.rules.farmland_trampled_disabled.desc": "阻止耕地被生物踩成泥土",
+
+  "curtain.rules.fake_player_name_prefix.name": "假人名称前缀",
+  "curtain.rules.fake_player_name_prefix.desc": "为/player指令召唤出来的假人名称添加指定前缀",
+
+  "curtain.rules.fake_player_name_suffix.name": "假人名称后缀",
+  "curtain.rules.fake_player_name_suffix.desc": "为/player指令召唤出来的假人名称添加指定后缀",
+
+  "curtain.rules.scaffolding_distance.name": "脚手架距离上限",
+  "curtain.rules.scaffolding_distance.desc": "脚手架水平拓展的距离上限",
+
+  "curtain.rules.fake_player_auto_fish.name": "假人自动钓鱼",
+  "curtain.rules.fake_player_auto_fish.desc": "让假人自动钓鱼",
+
+  "curtain.rules.better_sign_interaction.name": "更好的告示牌交互",
+  "curtain.rules.better_sign_interaction.desc": "右键涂蜡的告示牌时与之附着的方块产生交互",
+
+  "curtain.rules.better_wood_strip.name": "更好的原木去皮",
+  "curtain.rules.better_wood_strip.desc": "仅允许名称中包含“去皮”的斧头对原木去皮",
+
+  "curtain.rules.better_fence_gate_placement.name": "更好的栅栏门放置",
+  "curtain.rules.better_fence_gate_placement.desc": "让放置的栅栏门与你点击的栅栏门拥有相同的方块状态",
+
+  "curtain.rules.fake_player_resident.name": "假人驻留",
+  "curtain.rules.fake_player_resident.desc": "退出存档时保留假人",
+
+  "curtain.rules.fake_player_auto_replenishment.name": "假人补货",
+  "curtain.rules.fake_player_auto_replenishment.desc": "让假人自动补货",
+
+  "curtain.rules.fake_player_auto_replace_tool.name": "假人切换工具",
+  "curtain.rules.fake_player_auto_replace_tool.desc": "让假人自动切换快损坏的工具",
+
+  "curtain.rules.block_placement_ignore_entity.name": "方块放置忽略实体",
+  "curtain.rules.block_placement_ignore_entity.desc": "方块可放置时无视实体碰撞检测，也就是你可以将方块放在实体内",
+
+  "curtain.rules.empty_shulker_box_stack_always.name": "空潜影盒总能堆叠",
+  "curtain.rules.empty_shulker_box_stack_always.desc": "让空潜影盒总能堆叠起来，包括在物品栏中",
+
+  "curtain.rules.chicken_shearing.name": "剪鸡毛",
+  "curtain.rules.chicken_shearing.desc": "你可以用剪刀从鸡的身上剪下羽毛。注意！每次你剪鸡毛时鸡都会受伤！\n未成年的鸡不能被剪下羽毛",
+
+  "curtain.rules.anti_cheat_disabled.name": "禁用反作弊移动监测",
+  "curtain.rules.anti_cheat_disabled.desc": "防止玩家因为“本服务器未启用飞行”，“移动过快”等原因被踢出"
+}
